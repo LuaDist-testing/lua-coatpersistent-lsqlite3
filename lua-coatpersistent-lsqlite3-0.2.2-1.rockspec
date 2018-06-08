@@ -1,17 +1,17 @@
 -- This file was automatically generated for the LuaDist project.
 
 package = 'lua-CoatPersistent-lsqlite3'
-version = '0.2.1-1'
+version = '0.2.2-1'
 -- LuaDist source
 source = {
-  tag = "0.2.1-1",
+  tag = "0.2.2-1",
   url = "git://github.com/LuaDist-testing/lua-coatpersistent-lsqlite3.git"
 }
 -- Original source
 -- source = {
---     url = 'http://sites.google.com/site/fperrad/lua-coatpersistent-0.2.1.tar.gz',
---     md5 = '73b08107eab22d27dd66f1507a642ea6',
---     dir = 'lua-CoatPersistent-0.2.1',
+--     url = 'http://github.com/fperrad/lua-CoatPersistent/raw/releases/lua-coatpersistent-0.2.2.tar.gz',
+--     md5 = '1e10d7530bd5a01aa2fb4b0633623008',
+--     dir = 'lua-CoatPersistent-0.2.2',
 -- }
 description = {
     summary = "an ORM for lua-Coat",
@@ -19,7 +19,7 @@ description = {
         lua-CoatPersistent is an Object-Relational Mapping for lua-Coat.
         This variant is built over the modules lsqlite3 and Dado.
     ]],
-    homepage = 'http://fperrad.github.com/lua-CoatPersistent',
+    homepage = 'http://fperrad.github.io/lua-CoatPersistent',
     maintainer = 'Francois Perrad',
     license = 'MIT/X11'
 }
@@ -35,5 +35,5 @@ build = {
     modules = {
         ['Coat.Persistent']             = 'src.lsqlite3/Coat/Persistent.lua',
     },
-    copy_directories = { 'doc', 'test' },
+    copy_directories = { 'docs', 'test' },
 }
